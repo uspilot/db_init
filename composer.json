@@ -12,6 +12,5 @@
   "require": {
     "uspilot/ini_parser": "^1.0",
     "ext-pdo": "*"
-  },
-
+  }
 }
