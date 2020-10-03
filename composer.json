@@ -15,6 +15,6 @@
   },
   "autoload": {
     "psr-4": {
-      "uspilot\\DBInit\\": "/uspilot/db_init"}
+      "uspilot\\DBInit\\": "/"}
   }
 }
