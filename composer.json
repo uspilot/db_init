@@ -1,0 +1,17 @@
+{
+  "name": "uspilot/db_init",
+  "description": "Database init class",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "US_Pilot"
+    }
+  ],
+  "require": {
+    "uspilot/ini_parser": "^1.0",
+    "ext-pdo": "*"
+  },
+
+}
