@@ -12,6 +12,7 @@ namespace DBInit;
 use \PDO;
 use \PDOException;
 use \Exception;
+use \IniParser\IniParser;
 
 class DBInit
 {
@@ -50,7 +51,7 @@ class DBInit
         $encoding = 'utf8',
         $host = 'localhost'
     ) {
-        $iniparser = new IniParser\IniParser($ini_file);
+        $iniparser = new IniParser($ini_file);
         $ini = $iniparser->parse();
         /* Check if 'host' file exists in current directory.
          *  if not - use 'host' file from INI directory
