@@ -1,15 +1,26 @@
 # DBInit class
 Use this class to do initialization of MySQL database using PDO engine 
  
-#Installation
-composer require uspilot/db_init
+# Installation
 
-#How to use
+```
+$composer require uspilot/db_init
+```
+
+# Usage
+```php
 use \DBInit\DBInit;
 $pdo = DBInit::initialize();
+```
+Check that connection is still alive or not:
+```php
+if (!DBInit::checkAlive()) $pdo = DBInit::initialize();
+```
+Get handler to active PDO connection:
+```php
+$pdo = DBInit::getPdo()?: DBInit::initialize();
+``` 
 
-DBInit::checkAlive() checks that connection is still alive or not
-DBInit::getPdo() return handler to active PDO connection 
 
 Default ini file is 'ini/db_config.php', default path to <ini> folder is your php program working dir
 
