@@ -6,7 +6,7 @@ Use this class to do initialization of MySQL database using PDO engine
 ```
 $composer require uspilot/db_init
 ```
-
+Then copy *ini/*  folder to your php working dir
 # Usage
 ```php
 use \DBInit\DBInit;
