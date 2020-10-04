@@ -1,10 +1,10 @@
 # DBInit class
 Use this class to do initialization of MySQL database using PDO engine 
  
-#Installation
+# Installation
 composer require uspilot/db_init
 
-#How to use
+# How to use
 use \DBInit\DBInit;
 $pdo = DBInit::initialize();
 
