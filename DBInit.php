@@ -7,7 +7,7 @@
  *  @time  16:04
  *
  */
-//namespace uspilot\DBInit;
+namespace DBInit;
 
 use \PDO;
 use \PDOException;
