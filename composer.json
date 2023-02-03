@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "uspilot/ini_parser": "dev-master",
+    "uspilot/ini_parser": "*",
     "ext-pdo": "*"
   },
   "autoload": {
